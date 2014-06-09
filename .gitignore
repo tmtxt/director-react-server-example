@@ -1,0 +1,4 @@
+main.js
+node_modules/*
+public/javascripts/main.js
+public/javascripts/react.js
