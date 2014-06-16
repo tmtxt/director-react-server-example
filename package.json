@@ -25,6 +25,8 @@
     "gulp-browserify": "^0.5.0",
     "literalify": "^0.3.0",
     "browserify": "4.1.8",
-    "esprima": "^1.2.2"
+    "esprima": "^1.2.2",
+    "vinyl-source-stream": "^0.1.1",
+    "gulp-clean": "^0.3.0"
   }
 }

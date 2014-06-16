@@ -1,8 +1,8 @@
 main.js
 node_modules/*
 public/javascripts/main.js
-public/javascripts/tes1.js
-public/javascripts/tes2.js
+public/javascripts/test1.js
+public/javascripts/test2.js
 public/javascripts/react.js
 public/javascripts/director.js
 .tern-port
