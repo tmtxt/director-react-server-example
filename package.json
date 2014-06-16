@@ -15,13 +15,16 @@
     "ejs": "~0.8.5",
     "stylus": "0.42.3",
     "envify": "^1.2.1",
-    "react": "^0.10.0"
+    "react": "^0.10.0",
+    "director": "1.2.3"
   },
   "devDependencies": {
     "gulp-plumber": "^0.6.2",
     "gulp": "^3.7.0",
     "gulp-react": "^0.3.3",
     "gulp-browserify": "^0.5.0",
-    "literalify": "^0.3.0"
+    "literalify": "^0.3.0",
+    "browserify": "4.1.8",
+    "esprima": "^1.2.2"
   }
 }
