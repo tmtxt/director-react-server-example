@@ -6,23 +6,24 @@
 
 # Deployment
 
-Browserify Node package with these commands
+Browserify Node packages
 
 ````
-browserify -r react > ./public/javascripts/react.js
-browserify -r director > ./public/javascripts/director.js
+gulp browserify-lib
 ````
 
-Transform jsx
+Transform JSX files (this is required because the server needs those js files to
+work properly. However, the below task launches this task automatically).
 
 ````
 gulp jsx
 ````
 
-Browserify React component from server to client
+Browserify React components from server to client (this task automatically runs
+the jsx task)
 
 ````
-gulp browserify
+gulp browserify-modules
 ````
 
 Optional: there is a **watch** task if you want it auto transform jsx and
