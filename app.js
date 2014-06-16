@@ -39,7 +39,9 @@ var main = require('./main.js');
 var test1 = require('./test1.js');
 var test2 = require('./test2.js');
 
-// my routing table
+// Server Routing table
+// If the user access directly to those links, the page will be rendered using
+// ReactJS on server
 app.get('/', viewIndex);
 function viewIndex(req, res){
   res.render('index', {title: 'Express',
