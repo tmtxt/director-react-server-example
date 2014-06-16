@@ -33,6 +33,8 @@ app.use('/users', users);                                                     //
 // My added code
 // Require react
 var React = require('react');
+
+// Remember to tranform jsx before require (gulp jsx or gulp watch)
 var main = require('./main.js');
 var test1 = require('./test1.js');
 var test2 = require('./test2.js');
